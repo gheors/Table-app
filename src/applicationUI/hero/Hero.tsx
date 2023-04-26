@@ -84,7 +84,7 @@ export default function Hero() {
                 top={"-15px"}
                 transform={"rotate(10deg)"}
               >
-                Test implementation
+                Features implementation
               </Text>
             </Box>
           </Stack>
