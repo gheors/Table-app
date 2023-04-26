@@ -1,7 +1,8 @@
 
-
+// Use this storage in the config instead of redux-persist/lib/storage
+// because we cannot create the local storage in Node.js (nextjs server)
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
-// 
+
 const createNoopStorage = () => {
   return {
     getItem(_key: any) {
