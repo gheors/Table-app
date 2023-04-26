@@ -26,7 +26,7 @@ export default function DeleteButton({ isHover, isActive, index }: Props) {
   return (
     <Tooltip
       hasArrow
-      label="Reset default values"
+      label="Delete row"
       bg={tooltipBgColor}
       color={toggleColor}
       border="1px solid red"
