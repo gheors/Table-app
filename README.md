@@ -14,3 +14,7 @@ npm run dev
 ```
 ### Browse to http://localhost:3000/
 
+### Run tests
+```bash
+npm run test 
+```
