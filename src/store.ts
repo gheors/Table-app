@@ -19,6 +19,7 @@ export function makeStore() {
       reducer: rootReducer,
     });
 
+  // specify the key and the type of storage.
   const persistConfig = {
     key: "nextjs",
     whitelist: [tableSlice.name],
