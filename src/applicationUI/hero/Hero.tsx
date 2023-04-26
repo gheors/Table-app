@@ -62,7 +62,7 @@ export default function Hero() {
               colorScheme={"blue"}
               size={"sm"}
               as={"a"}
-              href="RepoLink"
+              href="https://github.com/gheors/Table-app"
               target="_blank"
             >
               Learn more
